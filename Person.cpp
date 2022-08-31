@@ -23,3 +23,6 @@ void Person :: setSalary(int mySalary){
 int Person :: getSalary(){
     return Salary;
 }
+
+
+Person :: Person(){}

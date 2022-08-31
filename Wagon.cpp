@@ -32,7 +32,7 @@ bool Wagon :: addCapybara(Capybara newCapy){
     }
     
     return true;
-}
+};
 
 void Wagon :: emptyWagon(){
     count_avaiable=4;

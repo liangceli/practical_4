@@ -10,6 +10,7 @@ class Person{
     int Salary;
 
     public:
+    Person();
     Person(int mySalary, string myName);
     void setName(string myName);
     string getName();
