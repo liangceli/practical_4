@@ -3,6 +3,11 @@
 #include"Person.h"
 using namespace std;
 
+Person :: Person(){
+    Name="okok";
+    Salary=0;
+}
+
 Person :: Person(int mySalary, string myName){
     Salary=mySalary;
     Name=myName;
@@ -25,4 +30,3 @@ int Person :: getSalary(){
 }
 
 
-Person :: Person(){}

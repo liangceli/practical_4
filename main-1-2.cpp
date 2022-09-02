@@ -9,9 +9,9 @@ int main(){
     p1.setName("Peter");
     p1.setSalary(2000);
 
-    cout<<"Creat a person's information: "<<p1.Person<<endl;
+    /*cout<<"Creat a person's information: "<<p1.Person()<<endl;*/
 
-    cout<<"Update the person's information: "<<p1.getName()<<" "<<p1.getSalary()<<endl;
+    cout<<p1.getName()<<" "<<p1.getSalary()<<endl;
 
     return 0;
 }

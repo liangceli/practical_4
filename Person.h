@@ -6,8 +6,8 @@ using namespace std;
 class Person{
 
     private:
-    std::string Name;
-    int Salary;
+    std::string myName;
+    int mySalary;
 
     public:
     Person();
@@ -16,6 +16,8 @@ class Person{
     string getName();
     void setSalary(int mySalary);
     int getSalary();
+    std::string Name;
+    int Salary;
 };
 
 
